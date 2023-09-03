@@ -14,3 +14,13 @@ The class PlayerPawn represents the camera in the game. It contains modifiable v
 When a building is clicked, it invokes a function in Actor_BuildingGenerator with a parameter that maps to the corresponding building. The function spawns the building in the game. The player can then move the building on the ground using GetHitResultUnderCursor. The building's location is set based on the hit location until the user clicks on the ground to place it.
 
 In summary, these classes and their interactions facilitate UI management, building customization, camera control, and building placement within the game environment.
+
+HOW TO PLAY:
+
+To control the camera, use the WASD keys for movement. You can zoom in and out using the mouse wheel, and holding the mouse wheel button allows you to rotate the camera horizontally and vertically. Press Q and E to rotate the camera.
+
+To place objects, click on the placement button. This will open a new list of items. Click on any item in the list and you can start dragging it around.
+
+While dragging an item, you can perform additional actions. Press R to rotate the item, and press F to reset its rotation. If you want to remove the item, simply press the delete key.
+
+If you click on any existing buildings in the game, it will open another list of options. In this list, you can change the color of the building, rotate it to the right or left, and remove the building entirely.
